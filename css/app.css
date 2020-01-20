@@ -23,6 +23,9 @@ center {
   width: 100%;
   min-width: 650px; }
 
+a img {
+  border: none; }
+
 p {
   margin: 0 0 0 10px;
   Margin: 0 0 0 10px; }
@@ -373,18 +376,18 @@ p {
 
 .footer {
   background-color: #000000; }
+  .footer p {
+    color: #ffffff;
+    font-size: 12px; }
+  .footer a {
+    color: #ffffff;
+    text-decoration: underline; }
 
 th.columns table:not(.button).sm-icons {
   width: 180px; }
 
 table.sm-icons img.sm-icon {
   width: 30px; }
-
-.footer p {
-  color: #ffffff;
-  padding-left: 30px;
-  padding-right: 30px;
-  text-align: center; }
 
 @media only screen and (max-width: 616px) {
   table.sm-icons img.sm-icon {
